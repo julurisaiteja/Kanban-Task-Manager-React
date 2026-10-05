@@ -8,16 +8,16 @@ export default {
     extend: {
       colors: {
         kanban: {
-          bg: "#020617",
-          card: "#020617",
-          border: "#1f2937",
-          primary: "#6366f1",
-          primarySoft: "#4f46e5",
-          accent: "#22d3ee",
+          bg: "#101615",
+          card: "#18211f",
+          border: "#34423e",
+          primary: "#d28a36",
+          primarySoft: "#af6328",
+          accent: "#39b8a7",
         },
       },
       boxShadow: {
-        glow: "0 0 40px rgba(79, 70, 229, 0.35)",
+        glow: "0 0 32px rgba(210, 138, 54, 0.24)",
       },
     },
   },

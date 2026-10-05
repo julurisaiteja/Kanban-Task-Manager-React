@@ -41,7 +41,8 @@ export function TaskCard({ task, onEdit, onDelete, dragOverlay = false }) {
       ref={setNodeRef}
       style={style}
       data-testid={`task-card-${task.id}`}
-      className={`group relative rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-900/90 via-slate-900/90 to-slate-950/90 p-4 shadow-lg shadow-black/30 transition-all hover:border-kanban-primary/80 hover:shadow-glow
+      data-priority={task.priority}
+      className={`kanban-task-card group relative border p-4 transition-all
         ${
           isOverlay
             ? "pointer-events-none ring-2 ring-kanban-primary/80 shadow-glow"
